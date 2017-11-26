@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+
+.container {
+    position: relative;
+    text-align: left;
+    color: #202020;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: bold;
+
+}
+.centered {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        font-size: 200;
+        font-size-adjust: auto;
+
+    }
+
+    </style>
     <meta charset="UTF-8">
     <title>title</title>
   </head>
   <body>
 
-  <img src="images/trump_template.png" alt="trump-tweet-image">
+<div class="container">
+  <img src="images/trump_template.png" alt="trump-tweet-image" style="width:100%;">
+  <div class="centered">My nonsense is the best nonsense. You've never seen such nonsense </div>
+  <!-- now I just need to have the text input here come from a javascript... that I definitely know how to do ;)-->
+</div>
 
   </body>
 </html>
